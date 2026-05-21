@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cmd /c \"dir c:\\\\Users\\\\Priyam\\\\Documents\\\\Temp\\\\Projects\\\\Latest\\\\TeamBoard\\\\teamboard\\\\node_modules\\\\@tldraw\\\\validate\\\\dist-cjs /b\" 2>&1)",
+      "Bash(pdftotext \"/c/Users/Priyam/Documents/Temp/Projects/Latest/TeamBoard/tldraw.pdf\" -)",
+      "Bash(pdftotext -layout \"/c/Users/Priyam/Documents/Temp/Projects/Latest/TeamBoard/tldraw.pdf\" /tmp/tldraw.txt)",
+      "Bash(echo \"exit: $?\")",
+      "Read(//tmp/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(pdftotext -raw \"/c/Users/Priyam/Documents/Temp/Projects/Latest/TeamBoard/tldraw.pdf\" -)",
+      "Bash(pdftotext -enc UTF-8 -nopgbrk \"/c/Users/Priyam/Documents/Temp/Projects/Latest/TeamBoard/tldraw.pdf\" -)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(pdftoppm -r 150 -png \"/c/Users/Priyam/Documents/Temp/Projects/Latest/TeamBoard/tldraw.pdf\" /tmp/tldraw_page)",
+      "Read(//c/tmp/**)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(node -e \"const t = require\\('./node_modules/tldraw/dist-cjs/index.js'\\); console.log\\(typeof t.createShapeId, typeof t.TLArrowShape\\)\")"
+    ]
+  }
+}
